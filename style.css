@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -5,12 +6,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background-color: #eaf7f5;
     color: #333;
 }
 
 header {
-    background-color: #1f4e79;
+    background-color: #00897b;
     color: white;
     text-align: center;
     padding: 30px;
@@ -21,7 +22,7 @@ header h1 {
 }
 
 nav {
-    background-color: #222;
+    background-color: #004d40;
     text-align: center;
     padding: 15px;
 }
@@ -34,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #ffeb3b;
 }
 
 .container,
@@ -44,7 +45,7 @@ nav a:hover {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #b2dfdb;
 }
 
 .home {
@@ -52,8 +53,8 @@ nav a:hover {
 }
 
 h2 {
-    color: #1f4e79;
-    border-bottom: 2px solid #1f4e79;
+    color: #00796b;
+    border-bottom: 2px solid #00796b;
     padding-bottom: 5px;
 }
 
@@ -65,13 +66,13 @@ table {
 
 th,
 td {
-    border: 1px solid #999;
+    border: 1px solid #80cbc4;
     padding: 12px;
     text-align: left;
 }
 
 th {
-    background-color: #1f4e79;
+    background-color: #009688;
     color: white;
 }
 
@@ -84,7 +85,7 @@ li {
 }
 
 button {
-    background-color: #1f4e79;
+    background-color: #00897b;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -94,11 +95,11 @@ button {
 }
 
 button:hover {
-    background-color: #163a5c;
+    background-color: #004d40;
 }
 
 footer {
-    background-color: #222;
+    background-color: #004d40;
     color: white;
     text-align: center;
     padding: 15px;
