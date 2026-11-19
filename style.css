@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -5,13 +6,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #E8F5E9;
+    background-color: #eaf7f5;
     color: #333;
 }
 
 header {
-    background-color: #A8DCC0;
-    color: #24543D;
+    background-color: #00897b;
+    color: white;
     text-align: center;
     padding: 30px;
 }
@@ -21,42 +22,86 @@ header h1 {
 }
 
 nav {
-    background-color: #4C9B78;
-    padding: 15px;
+    background-color: #004d40;
     text-align: center;
+    padding: 15px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 0 20px;
     font-weight: bold;
 }
 
-main {
-    background-color: #F1FAF4;
-    margin: 25px auto;
+nav a:hover {
+    color: #ffeb3b;
+}
+
+.container,
+.home {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
     padding: 30px;
-    width: 90%;
     border-radius: 10px;
+    box-shadow: 0 0 10px #b2dfdb;
+}
+
+.home {
+    text-align: center;
 }
 
 h2 {
-    color: #347A59;
+    color: #00796b;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #80cbc4;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #009688;
+    color: white;
+}
+
+.biodata th {
+    width: 30%;
+}
+
+li {
+    margin: 8px 0;
 }
 
 button {
-    background-color: #4C9B78;
+    background-color: #00897b;
     color: white;
     border: none;
-    padding: 12px 22px;
+    padding: 12px 25px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004d40;
 }
 
 footer {
-    background-color: #A8DCC0;
-    color: #24543D;
+    background-color: #004d40;
+    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    margin-top: 30px;
 }
